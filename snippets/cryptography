@@ -1,0 +1,11 @@
+## WIP to be elaborated shortly ##
+
+#Checksums
+alias s1s='sha1sum'
+alias s2s='sha256sum'
+alias s5s='sha512sum'
+alias m5s='md5sum'
+
+
+# GPG / PGP 
+
