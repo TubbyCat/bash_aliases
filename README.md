@@ -1,4 +1,4 @@
-Copyright © 2018-2023 TubbyCat <tubbycat.dev.pub@protonmail.com>
+Copyright © 2018-2023 TubbyCat  <tubbycat.dev.pub@protonmail.com>
 
 # <span style="color:purple">TubbyCat's Bash Aliases</span>
 For use on your own system it may be best to modify the alias names to whatever you would find optimal. Such a determination of preference requires some linux experience. 
