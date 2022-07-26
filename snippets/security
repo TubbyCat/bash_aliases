@@ -1,0 +1,9 @@
+#WIP#
+
+# MALWARE DETECTION
+  
+  #Clam-av
+alias clamsc='clamscan -r -z -i --cross-fs=yes --detect-pua=yes --heuristic-alerts=yes --alert-encrypted=yes --max-filesize=3999M'
+
+alias clamup='sudo freshclam && sudo clamav-unofficial-sigs'
+ #Note: clamav-unofficial-sigs may be named differently in a given distro
