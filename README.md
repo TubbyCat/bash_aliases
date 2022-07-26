@@ -30,6 +30,6 @@ cd ./bash_aliases
 #for full aliases
 cp ./.bash_aliases ~/
 #for snippets 
-#cat ./snipets/~whicheverdirectory/~whicheverfilename >> ~/.bash_aliases
+#cat ./snipets/whicheverdirectory/whicheverfilename >> ~/.bash_aliases
 #to appropriately use snippets you will likely need to use a text editor
 ```
