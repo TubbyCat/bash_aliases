@@ -1,0 +1,22 @@
+#Copyright © 2022-2023 TubbyCat
+#This file comes with ABSOLUTELY NO WARRANTY
+ 
+# DNF
+alias dnfup='sudo dnf upgrade'
+
+alias dnfin='sudo dnf install'
+
+alias dnfrm='sudo dnf erase'
+
+alias dnf-search='dnf search'
+
+alias dnf-installed='dnf list --installed'
+  # alt: alias dnf-inst='dnf list --installed'
+
+alias dnf-installed-q='dnf list --installed | grep'
+ # alt: alias dnf-inst-q='dnf list --installed | grep'
+
+# RPM
+alias rpmsums="rpm -Va --noconfig | grep '^..5'"
+  #rpmsums - cryptographic verification of integrity via rpm. see: debsums package.
+
