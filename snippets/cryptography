@@ -14,6 +14,5 @@ alias s1h='sha1hmac'
 # GPG / PGP 
 alias gpg-fingerprint='gpg --import --import-options show-only'
  # Alternate: gpg-fp='gpg --import --import-options show-only'
-
 alias g-ver='gpg --verify'
   # e.g. gpg --verify fileA.sign fileA
