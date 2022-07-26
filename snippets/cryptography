@@ -1,11 +1,19 @@
-## WIP to be elaborated shortly ##
+#Copyright © 2022-2023 TubbyCat
+#This file comes with ABSOLUTELY NO WARRANTY
 
-#Checksums
+# Checksums
 alias s1s='sha1sum'
 alias s2s='sha256sum'
 alias s5s='sha512sum'
 alias m5s='md5sum'
 
+alias s5h='sha512hmac'
+alias s2h='sha256hmac'
+alias s1h='sha1hmac'
 
 # GPG / PGP 
+alias gpg-fingerprint='gpg --import --import-options show-only'
+ # Alternate: gpg-fp='gpg --import --import-options show-only'
 
+alias g-ver='gpg --verify'
+  # e.g. gpg --verify fileA.sign fileA
