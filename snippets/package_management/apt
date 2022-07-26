@@ -1,0 +1,14 @@
+#Copyright © 2022-2023 TubbyCat
+#This file comes with ABSOLUTELY NO WARRANTY
+
+# APT
+alias aptup='sudo apt-get update && sudo apt-get upgrade'
+alias aptin='sudo apt-get install'
+alias aptrm='sudo apt-get purge'
+alias apt-search='apt-cache search'
+#alias apt-info='apt show'
+alias apt-dep='apt depends'
+
+# DEBSUMS
+# install debsums with sudo apt-get install -y debsums. 
+alias debsums='debsums -a -s --ignore-obsolete' ## All & report non-ok results. Can pipe to grep.
