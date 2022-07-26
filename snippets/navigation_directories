@@ -1,0 +1,24 @@
+#Copyright © 2022-2023 TubbyCat
+#This file comes with ABSOLUTELY NO WARRANTY
+
+#Home Directory Navigation
+alias desktop='cd ~/Desktop'
+  #Alt e.g.: alias desk='cd ~/Desktop'
+
+alias downs='cd ~/Downloads'
+
+alias docs='cd ~/Documents'
+
+alias picts='cd ~/Pictures'
+
+alias vids='cd ~/Videos'
+  # Alt e.g.: alias ~v='cd ~/Videos'
+
+#Backward Navigation in Directories
+alias ..='cd ..'
+
+alias .1='cd ..'
+
+alias .2='cd ../..'
+
+alias .3='cd ../../..'
