@@ -3,16 +3,11 @@
  
 # DNF
 alias dnfup='sudo dnf upgrade'
-
 alias dnfin='sudo dnf install'
-
 alias dnfrm='sudo dnf erase'
-
 alias dnf-search='dnf search'
-
 alias dnf-installed='dnf list --installed'
   # alt: alias dnf-inst='dnf list --installed'
-
 alias dnf-installed-q='dnf list --installed | grep'
  # alt: alias dnf-inst-q='dnf list --installed | grep'
 
