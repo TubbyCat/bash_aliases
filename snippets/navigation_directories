@@ -1,7 +1,8 @@
 #Copyright © 2022-2023 TubbyCat
 #This file comes with ABSOLUTELY NO WARRANTY
 
-#Home Directory Navigation
+# Home Directory Navigation
+
 alias desktop='cd ~/Desktop'
   #Alt e.g.: alias desk='cd ~/Desktop'
 
@@ -14,7 +15,8 @@ alias picts='cd ~/Pictures'
 alias vids='cd ~/Videos'
   # Alt e.g.: alias ~v='cd ~/Videos'
 
-#Backward Navigation in Directories
+# Backward Navigation in Directories
+
 alias ..='cd ..'
 
 alias .1='cd ..'
@@ -22,3 +24,15 @@ alias .1='cd ..'
 alias .2='cd ../..'
 
 alias .3='cd ../../..'
+
+# Mkdir Create Parent Directories
+
+alias mkdir='mkdir -v'
+
+# List (ls)
+
+alias ll='ls -alF'
+
+alias la='ls -A'
+
+alias l='ls -CFl'
