@@ -1,0 +1,9 @@
+#Copyright © 2022-2023 TubbyCat
+#This file comes with ABSOLUTELY NO WARRANTY
+
+# FLATPAK
+alias flatup='flatpak update'
+alias flatrm='flatpak remove'
+alias flatRM='flatpak remove --delete-data' # THIS OPT WILL DELETE ASSOCIATED PACKAGE DATA
+
+# SNAP
