@@ -1,4 +1,5 @@
 Copyright © 2022-2023 TubbyCat  
+See CREDIT and GPLV3 files for elaborated copyright information.
 
 # <span style="color:purple">TubbyCat's Bash Aliases</span>
 For use on your own system it may be best to modify the alias names to whatever you would find optimal. Such a determination of preference requires some linux experience. 
@@ -9,7 +10,7 @@ For use on your own system it may be best to modify the alias names to whatever 
 **The "Snippets" directory contains aliases organized by category**
   - Simply copy and paste into your own _~/.bash_aliases_ file
   - if only using a few aliases, you can insert them directly into _~/.bashrc_
-  - **Hint**: "~" refers to the home directory. Typically /home/$USER.  $USER is a placeholder for username, but can be executed in the terminal on your linux machine as well. 
+  - **Hint**: "~" refers to the home directory. Typically /home/$USER.  $USER is a placeholder for username, and can also be executed in the terminal on your linux machine. 
 
 
 ## For ~/.bash_aliases to work, add the following to your system's ~/.bashrc file, if it does not already exist. ##
