@@ -1,6 +1,7 @@
 #Copyright © 2022-2023 TubbyCat
 #This file comes with ABSOLUTELY NO WARRANTY
-#
+
+# Terminal Misc
 
 alias cls='clear'
 alias history-off='set +o history' #Disables history in current shell. Useful for reducing clutter in .bash_history .
