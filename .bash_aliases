@@ -81,11 +81,18 @@ alias rpmsums="rpm -Va --noconfig | grep '^..5'"
   #rpmsums - cryptographic verification of integrity via rpm. see: debsums package. No equivalent rpm-based package, rather the above function.
 
  # Flatpak
- alias flatup='flatpak update'
+alias flatup='flatpak update'
 alias flatrm='flatpak remove'
 alias flatRM='flatpak remove --delete-data' # THIS OPT WILL DELETE ASSOCIATED PACKAGE DATA
 
   # Snap
+alias snapin='snap install'
+# alt: snap-in='snap install'
+alias snapup='snap refresh'  # given as snap refresh (global update) ; snap refresh $packagename ; snap refresh $packagename --channel=$channelname (update to different channel)
+alias snaprm='snap remove'
+alias snapq='snap find'
+alias snapls='snap list'
+alias snapdelta='snap changes'
 
 ### SECURITY ###
   # Malware Detection 
