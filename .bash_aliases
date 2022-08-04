@@ -53,6 +53,7 @@ alias l='ls -CFl'
 ### NETWORKING ###
 alias myip='curl ifconfig.co'
 alias netlisten='netstat -plntu'
+alias pingtest='ping -c 2 google.com'
 
 ### PACKAGE MANAGEMENT [MULTIPLE DISTROS - COMMENT OUT AS NEEDED] ###
   # Apt Package Manager
