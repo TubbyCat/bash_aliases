@@ -12,7 +12,7 @@ For use on your own system it may be best to modify the alias names to whatever 
 alias aliasname='command'
 e.g. alias turnoffmycomputer='sudo reboot now'
 ```
- _Note: files beginning with "." are initially hidden in linux file managers unless their visibility is enabled. Hint: Google "make dotfiles visible linux"_
+ _Note: files beginning with "." are initially hidden in linux file managers unless their visibility is enabled. **Hint**: Google "make dotfiles visible linux"_
 
 ## HOW TO USE ##
 **For combined bash aliases, simply copy over the _.bash_aliases_ file in this git repository.**
