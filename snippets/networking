@@ -2,5 +2,6 @@
 # Networking
 
 alias myip='curl ifconfig.co'
+alias pingtest='ping -c 2 google.com'
 alias netlisten='netstat -plntu'
 #alias netstat='netstat -pntu'
