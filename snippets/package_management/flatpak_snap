@@ -7,3 +7,11 @@ alias flatrm='flatpak remove'
 alias flatRM='flatpak remove --delete-data' # THIS OPT WILL DELETE ASSOCIATED PACKAGE DATA
 
 # SNAP
+
+alias snapin='snap install'
+# alt: snap-in='snap install'
+alias snapup='snap refresh'  # given as snap refresh (global update) ; snap refresh $packagename ; snap refresh $packagename --channel=$channelname (update to different channel)
+alias snaprm='snap remove'
+alias snapq='snap find'
+alias snapls='snap list'
+alias snapdelta='snap changes'
