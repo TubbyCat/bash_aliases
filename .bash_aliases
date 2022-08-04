@@ -51,7 +51,8 @@ alias la='ls -A'
 alias l='ls -CFl'
 
 ### NETWORKING ###
-
+alias myip='curl ifconfig.co'
+alias netlisten='netstat -plntu'
 
 ### PACKAGE MANAGEMENT [MULTIPLE DISTROS - COMMENT OUT AS NEEDED] ###
   # Apt Package Manager
