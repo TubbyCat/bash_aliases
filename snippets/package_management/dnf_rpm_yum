@@ -1,5 +1,4 @@
 #Copyright © 2022-2023 TubbyCat
-#This file comes with ABSOLUTELY NO WARRANTY
  
 # DNF
 alias dnfup='sudo dnf upgrade'
