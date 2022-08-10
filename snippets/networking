@@ -1,7 +1,17 @@
-#WIP#
 # Networking
 
 alias myip='curl ifconfig.co'
 alias pingtest='ping -c 2 google.com'
 alias netlisten='netstat -plntu'
 #alias netstat='netstat -pntu'
+
+# Downloads
+alias wgets='wget --https-only --secure-protocol=PFS' # PFS = Perfect Forward Secrecy. 
+  # Alternative naming = wget-secure
+
+# Youtube downloads
+  #options include yt-dlp or youtube-dl. former is superior as of 2022. opts for both provided.
+alias yt-mp3='youtube-dl -i --extract-audio --audio-format=mp3'
+alias yt-dlp-mp3='yt-dlp -x --audio-format mp3'
+# alias yt='youtube-dl'
+# alias yt='yt-dlp'
