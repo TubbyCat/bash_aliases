@@ -1,7 +1,6 @@
 ##Copyright (C) 2022-2023 TUbbyCat 
-##See the files CREDIT and GPLv3 for contitions pertaining to copyright and/or modification of the contents of this work.
-
-## WIP ##
+##See the files CREDIT and GPLv3 for conditions pertaining to copyright 
+## Author reserves right to modify this work without forewarning. In pedestrian terms: Rolling. 
 
 
 ### ALERTS ###
@@ -54,6 +53,17 @@ alias l='ls -CFl'
 alias myip='curl ifconfig.co'
 alias netlisten='netstat -plntu'
 alias pingtest='ping -c 2 google.com'
+
+  # Downloads
+alias wgets='wget --https-only --secure-protocol=PFS' # PFS = Perfect Forward Secrecy. 
+  # Alternative naming = wget-secure
+
+  #youtube downloads
+  #options include yt-dlp or youtube-dl. former is superior as of 2022. opts for both provided.
+alias yt-mp3='youtube-dl -i --extract-audio --audio-format=mp3'
+alias yt-dlp-mp3='yt-dlp -x --audio-format mp3'
+# alias yt='youtube-dl'
+# alias yt='yt-dlp'
 
 ### PACKAGE MANAGEMENT [MULTIPLE DISTROS - COMMENT OUT AS NEEDED] ###
   # Apt Package Manager
