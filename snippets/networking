@@ -1,3 +1,5 @@
+Copyright © 2022-2023 TubbyCat
+
 # Networking
 
 alias myip='curl ifconfig.co'
