@@ -117,7 +117,7 @@ alias lynis-dryrun='sudo lynis audit system --verbose --no-log'
 ### TERMINAL MISC ###
 
 alias cls='clear'
-alias gtex='gnome-text-editor'  # Newer text editor by Gnome. 
+alias gtext='gnome-text-editor'  # Newer text editor by Gnome. 
 alias history-off='set +o history' #Disables history in current shell. Useful for reducing clutter in .bash_history .
 alias untar='tar -xvf'
 
