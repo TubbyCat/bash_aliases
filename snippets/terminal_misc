@@ -3,5 +3,6 @@
 # Terminal Misc
 
 alias cls='clear'
+alias gtext='gnome-text-editor' # Gnome's new text editor. 
 alias history-off='set +o history' #Disables history in current shell. Useful for reducing clutter in .bash_history .
 alias untar='tar -xvf'
