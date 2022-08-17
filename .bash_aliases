@@ -111,10 +111,13 @@ alias snapdelta='snap changes'
 alias clamsc='clamscan -r -z -i --cross-fs=yes --detect-pua=yes --heuristic-alerts=yes --alert-encrypted=yes --max-filesize=3999M'
 alias clamup='sudo freshclam && sudo clamav-unofficial-sigs' 
 #Note: clamav-unofficial-sigs may be named differently in a given distro
+  #Lynis  - popular tool for checking security posture of your system.
+alias lynis-dryrun='sudo lynis audit system --verbose --no-log'
 
 ### TERMINAL MISC ###
 
 alias cls='clear'
+alias gtex='gnome-text-editor'  # Newer text editor by Gnome. 
 alias history-off='set +o history' #Disables history in current shell. Useful for reducing clutter in .bash_history .
 alias untar='tar -xvf'
 
