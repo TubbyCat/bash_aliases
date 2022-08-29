@@ -62,8 +62,8 @@ alias wgets='wget --https-only --secure-protocol=PFS' # PFS = Perfect Forward Se
   #options include yt-dlp or youtube-dl. former is superior as of 2022. opts for both provided.
 alias yt-mp3='youtube-dl -i --extract-audio --audio-format=mp3'
 alias yt-dlp-mp3='yt-dlp -x --audio-format mp3'
-# alias yt='youtube-dl'
-# alias yt='yt-dlp'
+#alias yt-dl='youtube-dl'
+alias y-d='yt-dlp'
 
 ### PACKAGE MANAGEMENT [MULTIPLE DISTROS - COMMENT OUT AS NEEDED] ###
   # Apt Package Manager
