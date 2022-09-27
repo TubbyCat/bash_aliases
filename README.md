@@ -36,7 +36,7 @@ source .bashrc
 ```
 ## Elaborated Instructions, pseudo-TL;DR ##
 ```bash
-git clone https://github.com/TUbbyCat/bash_aliases.git
+git clone https://github.com/TubbyCat/bash_aliases.git
 cd ./bash_aliases
 #for full aliases
 cp ./.bash_aliases ~/
