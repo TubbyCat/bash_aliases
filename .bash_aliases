@@ -34,6 +34,26 @@ alias docs='cd ~/Documents'
 alias picts='cd ~/Pictures'
 alias vids='cd ~/Videos'
 # Alternate Example: alias ~v='cd ~/Videos'
+alias usrapp='cd ~/.local/share/applications'
+alias sysapp='cd /usr/share/applications'
+alias autostart='cd ~/.config/autostart'
+alias fapps='cd ~/.var/app/'
+alias cryptdir='cd ~/.local/share/Cryptomator/mnt/'
+alias fonts='cd ~/.local/share/fonts'
+alias userdirs='xdg-open ~/.config/user-dirs.dirs'
+alias cargobin='cd ~/.cargo/bin'
+alias pybin='cd ~/.local/bin'
+alias templates='cd ~/.local/share/templates'
+
+  # System Files & Folders
+alias fstab='xdg-open /etc/fstab'
+alias mimetypes='xdg-open /etc/mime.types'
+alias tlpconf='xdg-open /etc/tlp.conf'
+alias geoconf='xdg-open /etc/geoclue/geoclue.conf'
+alias upowerconf='xdg-open /etc/UPower/UPower.conf'
+alias selinux='cd /etc/selinux'
+alias dnfrepos='cd /etc/yum.repos.d'
+alias rpmrepos=dnfrepos
 
  # Backward Navigation in Directories
 alias ..='cd ..'
@@ -104,6 +124,14 @@ alias snaprm='snap remove'
 alias snapq='snap find'
 alias snapls='snap list'
 alias snapdelta='snap changes'
+
+  # rpm-ostree
+ alias rpmup="rpm-ostree update && notify-send -a 'rpm-ostree' 'Finished' 'Reboot your system to apply updates'"
+ alias rpmadd='rpm-ostree install'
+ alias rpmrm='rpm-ostree override remove'
+ 
+  # microOS
+ #alias rpmadd='transactional-update pkg install'
 
 ### SECURITY ###
   # Malware Detection 
