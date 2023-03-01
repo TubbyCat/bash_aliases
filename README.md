@@ -5,6 +5,8 @@ See CREDIT and GPLV3 files for elaborated copyright information.
 # TubbyCat's Bash Aliases #
 For use on your own system it may be best to modify the alias names to whatever you find optimal. Such a determination of preference requires some linux experience. No matter your expertise, these aliases are made with due regard for ease of use.
 
+[Skip to install instructions](https://github.com/TubbyCat/bash_aliases#elaborated-instructions-pseudo-tldr)
+
 ## You Stupid E-KittyCat, What the Fluff are Bash Aliases?! ##
 - A compilation of 'shortcuts' for commonly used linux commands residing inside _.bashrc_ or _.bash_aliases_ files
 - The syntax:
@@ -37,10 +39,22 @@ source .bashrc
 ## Elaborated Instructions, pseudo-TL;DR ##
 ```bash
 git clone https://github.com/TubbyCat/bash_aliases.git
-cd ./bash_aliases
+cd ~/bash_aliases
+
 #for full aliases
 cp ./.bash_aliases ~/
+
 #for snippets 
 #cat ./snipets/whicheverdirectory/whicheverfilename >> ~/.bash_aliases
 #to appropriately use snippets you will likely need to use a text editor
+
+# run from .bashrc (append)
+printf """
+
+# bash aliases
+if [ -f ~/.bash_aliases ]; then
+    ~/.bash_aliases
+fi""" >> ~/.bashrc
+
+chmod +x ~/.bash_aliases
 ```
