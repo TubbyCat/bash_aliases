@@ -1,0 +1,5 @@
+# RPM-ostree (Silverblue, Kinoite)
+alias update="rpm-ostree update"
+alias rpminst="rpm-ostree install"
+alias rpmrm="rpm-ostree override remove"
+alias upall="flatpak update && rpm-ostree update && poweroff"
