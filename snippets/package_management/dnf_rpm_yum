@@ -13,4 +13,5 @@ alias dnf-installed-q='dnf list --installed | grep'
 # RPM
 alias rpmsums="rpm -Va --noconfig | grep '^..5'"
   #rpmsums - cryptographic verification of integrity via rpm. see: debsums package.
-
+alias rpmlist="rpm -qa"
+alias rpmfind="rpm -qa | grep "
