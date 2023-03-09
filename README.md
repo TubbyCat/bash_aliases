@@ -5,7 +5,7 @@ See CREDIT and GPLV3 files for elaborated copyright information.
 # TubbyCat's Bash Aliases #
 For use on your own system it may be best to modify the alias names to whatever you find optimal. Such a determination of preference requires some linux experience. No matter your expertise, these aliases are made with due regard for ease of use.
 
-[Skip to install instructions](https://github.com/TubbyCat/bash_aliases#elaborated-instructions-pseudo-tldr)
+[Skip to quick custom install](https://github.com/TubbyCat/bash_aliases#quick-install)
 
 ## You Stupid E-KittyCat, What the Fluff are Bash Aliases?! ##
 - A compilation of 'shortcuts' for commonly used linux commands residing inside _.bashrc_ or _.bash_aliases_ files
@@ -14,9 +14,9 @@ For use on your own system it may be best to modify the alias names to whatever 
 alias aliasname='command'
 e.g. alias turnoffmycomputer='sudo reboot now'
 ```
- _Note: files beginning with "." are initially hidden in linux file managers unless their visibility is enabled. **Hint**: Google "make dotfiles visible linux"_
+ _Note: files beginning with "." are initially hidden in linux file managers unless their visibility is enabled. **Hint**: Search "make dotfiles visible linux" or just use Ctrl+H_
 
-## HOW TO USE ##
+## HOW TO USE (manual)##
 **For combined bash aliases, simply copy over the _.bash_aliases_ file in this git repository.**
 
 **The "Snippets" directory contains aliases organized by category**
@@ -29,26 +29,23 @@ e.g. alias turnoffmycomputer='sudo reboot now'
 
 ```bash
 if [ -f ~/.bash_aliases ]; then
-    .~/.bash_aliases
+    . ~/.bash_aliases
 fi
 ```
 Then, to implement the addition of .bash_aliases in-situ run:
 ```bash
 source .bashrc
 ```
-## Elaborated Instructions, pseudo-TL;DR ##
+
+## Quick install
+
 ```bash
 git clone https://github.com/TubbyCat/bash_aliases.git
 cd ~/bash_aliases
 
-#for full aliases
-cp ./.bash_aliases ~/
+chmod +x install.sh
+. /install.sh
 
-#for snippets 
-#cat ./snipets/whicheverdirectory/whicheverfilename >> ~/.bash_aliases
-#to appropriately use snippets you will likely need to use a text editor
-
-# run from .bashrc (append)
 printf """
 
 # bash aliases
@@ -58,3 +55,5 @@ fi""" >> ~/.bashrc
 
 chmod +x ~/.bash_aliases
 ```
+
+The quick install lets you either choose the whole alias set, or a part of it.
