@@ -1,0 +1,9 @@
+# transactional-update
+alias rpminst="transactional-update pkg in"
+alias rpmrm="transactional-update pkg rm"
+alias upall="flatpak update -y && transactional-update up -d"
+alias upfin="flatpak update -y && transactional-update up -d && poweroff"
+alias rpmcleanup="transactional-update cleanup-overlays"
+alias rpmsh="transactional-update update -d && transactional-update shell"
+alias rpmup="transactional-update pkg update"
+alias rpminf="transactional-update --version"
