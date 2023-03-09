@@ -3,3 +3,9 @@ alias update="rpm-ostree update"
 alias rpminst="rpm-ostree install"
 alias rpmrm="rpm-ostree override remove"
 alias upall="flatpak update && rpm-ostree update && poweroff"
+
+# RPM
+alias rpmsums="rpm -Va --noconfig | grep '^..5'"
+  #rpmsums - cryptographic verification of integrity via rpm. see: debsums package.
+alias rpmlist="rpm -qa"
+alias rpmfind="rpm -qa | grep "
