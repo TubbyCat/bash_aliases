@@ -1,0 +1,9 @@
+# SNAP
+
+alias snapin='snap install'
+alias snapup='snap refresh'  # given as snap refresh (global update) ; snap refresh $packagename ; snap refresh $packagename --channel=$channelname (update to different channel)
+alias snaprm='snap remove'
+alias snapq='snap find'
+alias snapfind="snap find"
+alias snapls='snap list'
+alias snapdelta='snap changes'
