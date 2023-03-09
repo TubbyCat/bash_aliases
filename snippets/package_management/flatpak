@@ -4,3 +4,6 @@
 alias flatup='flatpak update'
 alias flatrm='flatpak remove'
 alias flatRM='flatpak remove --delete-data' # THIS OPT WILL DELETE ASSOCIATED PACKAGE DATA
+alias flatfind="flatpak search"
+alias flatq="flatpak search"
+alias flathub="flatpak install flathub"
