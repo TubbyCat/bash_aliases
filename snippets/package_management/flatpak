@@ -1,0 +1,6 @@
+#Copyright © 2022-2023 TubbyCat
+
+# FLATPAK
+alias flatup='flatpak update'
+alias flatrm='flatpak remove'
+alias flatRM='flatpak remove --delete-data' # THIS OPT WILL DELETE ASSOCIATED PACKAGE DATA
